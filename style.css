@@ -1,0 +1,118 @@
+/* Table of Contents
+-------------------------------------
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+-------------------------------------*/
+
+/* General Content
+-------------------------------------*/
+
+.blue{
+    background-color:#84e4ff;
+    }
+
+.container{
+    padding: 1% 1%;
+}
+
+/* Typography
+-------------------------------------*/
+
+body{
+    font-family: 'Abel',sans-serif;
+    font-size: 3em;
+    color: black;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Satisfy', cursive;
+    font-size: 3em;
+    margin: 0.67em;
+}
+
+p.bio{
+    color: white;
+}
+
+p.maintext{
+    color:#085469;
+}
+
+a.header{
+    font-size: 1.3em;
+;}
+/* Header & Navigation
+-------------------------------------*/
+
+header.main_nav{
+    padding: 1% 1%;
+    display: block;
+}
+
+/* Images & Media
+-------------------------------------*/
+
+
+
+/* Footer
+-------------------------------------*/
+
+p.copyright{
+    padding-top: 1%;
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
+}
+
+.padding{
+    padding: 3% 5% ;
+}
+
+.paddingtop{
+    padding-top: 5%;
+}
+/* Media Queries
+-------------------------------------*/
+/* Larger than mobile */
+
+@media (max-width: 479px) {
+    .logo a{
+        font-size: 2em;
+    }
+
+    .main{
+        padding-top: 15%;
+    }
+
+    .portfolio img{
+        margin-bottom: 10%;
+    }
+
+    img.avatar{
+        margin-top: 25%;
+    }
+
+    h2.bio{
+        font-size: 2.5em
+    }
+
+    p.bio{
+        font-size: 1.25em;
+    }
+
+    ul.social li a{
+        font-size: .75em;
+    }
+}
